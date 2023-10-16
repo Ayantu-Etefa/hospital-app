@@ -1,0 +1,21 @@
+{
+  "name": "hospital-app",
+  "version": "1.0.0",
+  "description": "This is a hospital application to manage patients",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app.js"
+  },
+  "author": "Ayantu Etefa",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.2",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
