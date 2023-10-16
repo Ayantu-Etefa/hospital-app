@@ -74950,7 +74950,7 @@ A.Pg.prototype={
 wl(){var s=0,r=A.a2(t.fL),q,p,o,n,m,l,k
 var $async$wl=A.a3(function(a,b){if(a===1)return A.a_(b,r)
 while(true)switch(s){case 0:s=3
-return A.a8(A.aDS(A.m4("http://192.168.1.3:9556/fetchPatientsList")),$async$wl)
+return A.a8(A.aDS(A.m4("http://13.48.149.159:9556//fetchPatientsList")),$async$wl)
 case 3:l=b
 k=A.a([],t.F9)
 if(l.b===201){for(p=J.aq(B.bw.dC(0,A.aqs(A.apo(l.e).c.a.h(0,"charset")).dC(0,l.w)));p.t();){o=p.gG(p)
@@ -75000,7 +75000,7 @@ vp(a){var s=0,r=A.a2(t.z),q,p
 var $async$vp=A.a3(function(b,c){if(b===1)return A.a_(c,r)
 while(true)switch(s){case 0:q=t.N
 s=2
-return A.a8(A.aEt(A.m4("http://192.168.1.3:9556/addPatientDetail"),a,A.aA(["Content-Type","application/json; charset=UTF-8"],q,q)),$async$vp)
+return A.a8(A.aEt(A.m4("http://13.48.149.159:9556//addPatientDetail"),a,A.aA(["Content-Type","application/json; charset=UTF-8"],q,q)),$async$vp)
 case 2:p=c
 if(p.b===201)A.oU(A.aqs(A.apo(p.e).c.a.h(0,"charset")).dC(0,p.w))
 else throw A.d(A.cf("Failed to create album."))
